@@ -284,22 +284,22 @@ uint8_t makeOn(portMaps portInfo){
 	}
 	uint8_t init = 0x01<<pin;
 	switch(port){
-		case "A":
+		case 'A':
 		currentPortA |= init ;
 		PORTA = currentPortA;
 		break;
 
-		case "B":
+		case 'B':
 		currentPortB |= init;
 		PORTB  = currentPortB;
 		break;
 
-		case "C":
+		case 'C':
 		currentPortC |= init;
 		PORTC = currentPortC;
 		break;
 
-		case "D":
+		case 'D':
 		currentPortD |= init;
 		PORTD = currentPortD;
 		break;
@@ -322,22 +322,22 @@ uint8_t makeOff(portMaps portInfo){
 	uint8_t init = 0x01<<pin;
 	init = ~init;   /* Remembered a joke! how can `init` equal to `(not) init` :p */
 	switch(port){
-		case "A":
+		case 'A':
 		currentPortA &= init ;
 		PORTA = currentPortA;
 		break;
 
-		case "B":
+		case 'B':
 		currentPortB &= init;
 		PORTB = currentPortB;
 		break;
 
-		case "C":
+		case 'C':
 		currentPortC &= init;
 		PORTC = currentPortC;
 		break;
 
-		case "D":
+		case 'D':
 		currentPortD &= init;
 		PORTD = currentPortD;
 		break;
