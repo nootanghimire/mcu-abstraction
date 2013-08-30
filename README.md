@@ -50,9 +50,3 @@ int main(){
  
 
 ```
-
-
-License
-===
-
-This is licenced under DBAD licence!
