@@ -112,7 +112,7 @@ uint8_t main(){
 	oneInputSensor top_sensor, right_sensor, left_sensor;
 	initSensor(top_sensor, makePort('B', 0));
 	initSensor(right_sensor, makePort('B',1));
-	initSensor(left_sensor, makePort('B',2))
+	initSensor(left_sensor, makePort('B',2));
 
 	 while(1){
 	 		if(!followExceptObstacle()) {
