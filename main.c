@@ -55,6 +55,8 @@ typedef struct {
 	int type; //no need
 } oneInputSensor ;
 
+typedef oneInputSensor Sensor ;
+
 uint8_t currentPortA= 0x00, currentPortB = 0x00, currentPortC = 0x00 , currentPortD = 0x00;
 
 
