@@ -29,7 +29,7 @@ Example
 ===
 
 
-Here's a sneak peek at `int main()` . You can open up main.c and know completely
+Here's a sneak peek at `int main()` . You can open up example.c and know basics
 
 
 ```C
